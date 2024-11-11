@@ -4,8 +4,9 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import SearchForm from './components/SearchForm';
 import SearchResults from './components/SearchResults';
+import AvailableOffers from './components/AvailableOffers'; // Importamos el nuevo componente
 import Footer from './components/Footer';
-import './App.css'; // Asegúrate de importar este archivo CSS
+import './App.css';
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
@@ -44,6 +45,7 @@ function App() {
         <SearchForm onSearch={handleSearch} />
         <SearchResults flights={searchResults} />
       </div>
+      <AvailableOffers /> {/* Agregamos la nueva sección de ofertas aquí */}
       <Footer />
     </div>
   );
