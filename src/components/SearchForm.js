@@ -1,6 +1,6 @@
 // src/components/SearchForm.js
 import React, { useState } from 'react';
-import { MapPin, Calendar, Users } from 'lucide-react'; // Cambiamos Airplane por MapPin
+import { MapPin, Calendar, Users } from 'lucide-react'; // Asegúrate de tener estos iconos
 import './SearchForm.css';
 
 const SearchForm = ({ onSearch }) => {

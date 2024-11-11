@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import SearchForm from './components/SearchForm';
 import SearchResults from './components/SearchResults';
 import Footer from './components/Footer';
+import './App.css'; // Asegúrate de importar este archivo CSS
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
@@ -39,8 +40,10 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <SearchForm onSearch={handleSearch} />
-      <SearchResults flights={searchResults} />
+      <div className="search-container">
+        <SearchForm onSearch={handleSearch} />
+        <SearchResults flights={searchResults} />
+      </div>
       <Footer />
     </div>
   );

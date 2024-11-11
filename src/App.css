@@ -36,3 +36,97 @@
     transform: rotate(360deg);
   }
 }
+
+/* Nuevos estilos para el layout de búsqueda y resultados */
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: left; /* Asegura que el texto dentro del contenedor esté alineado a la izquierda */
+}
+
+.search-form {
+  flex-basis: 40%;
+  max-width: 400px; /* Limita el ancho máximo del formulario */
+}
+
+.search-results {
+  flex-basis: 55%;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.input-container .icon {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.form-group input {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  padding: 8px;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para los resultados de búsqueda */
+.flight-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flight-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.flight-info, .flight-times, .flight-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.select-flight {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.select-flight:hover {
+  background-color: #218838;
+}
