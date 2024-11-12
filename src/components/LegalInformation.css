@@ -1,37 +1,68 @@
 /* src/components/LegalInformation.css */
 .legal-information {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-  }
-  
-  .legal-information h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 30px;
-  }
-  
-  .legal-information section {
-    margin-bottom: 30px;
-  }
-  
-  .legal-information h2 {
-    color: #007bff;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-  }
-  
-  .legal-information p {
-    margin-bottom: 10px;
-    line-height: 1.6;
-  }
-  
-  .legal-information a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .legal-information a:hover {
-    text-decoration: underline;
-  }
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.legal-information h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.legal-information section {
+  margin-bottom: 30px;
+}
+
+.legal-information h2 {
+  color: #007bff;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.legal-information p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.legal-information a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.legal-information a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para las políticas */
+.policy-item {
+  margin-bottom: 15px; /* Espacio entre cada política */
+}
+
+/* Contenedor para mantener el botón y el contenido alineados */
+.policy-container {
+  display: flex; /* Usar flexbox para alinear elementos */
+  flex-direction: column; /* Colocar los elementos en columna */
+}
+
+/* Estilo del botón */
+.policy-button {
+  background-color: #007bff; /* Color azul */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 5px 10px; /* Espaciado interno */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-top: 5px; /* Espacio entre el texto y el botón */
+}
+
+.policy-button:hover {
+  background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+/* Contenido de la política */
+.policy-content {
+  margin-top: 10px; /* Espacio superior para el contenido de la política */
+}
