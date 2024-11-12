@@ -4,7 +4,9 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import SearchForm from './components/SearchForm';
 import SearchResults from './components/SearchResults';
-import AvailableOffers from './components/AvailableOffers'; // Importamos el nuevo componente
+import AvailableOffers from './components/AvailableOffers';
+import ServicesAndPrices from './components/ServicesAndPrices'; // Importamos el nuevo componente
+import LegalInformation from './components/LegalInformation'; // Importamos el nuevo componente
 import Footer from './components/Footer';
 import './App.css';
 
@@ -45,7 +47,9 @@ function App() {
         <SearchForm onSearch={handleSearch} />
         <SearchResults flights={searchResults} />
       </div>
-      <AvailableOffers /> {/* Agregamos la nueva sección de ofertas aquí */}
+      <AvailableOffers />
+      <ServicesAndPrices /> {/* Agregamos la nueva sección de servicios y precios aquí */}
+      <LegalInformation /> {/* Agregamos la nueva sección de información legal aquí */}
       <Footer />
     </div>
   );

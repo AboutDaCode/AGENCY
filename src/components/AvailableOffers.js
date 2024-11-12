@@ -9,6 +9,10 @@ const AvailableOffers = () => {
     { destination: 'Nueva York', origin: 'Barcelona', price: 450 },
     { destination: 'Tokio', origin: 'Londres', price: 700 },
     { destination: 'Roma', origin: 'Berlín', price: 120 },
+    { destination: 'Sídney', origin: 'Los Ángeles', price: 800 },
+    { destination: 'Dubái', origin: 'Moscú', price: 350 },
+    { destination: 'Río de Janeiro', origin: 'Lisboa', price: 500 },
+    { destination: 'Bangkok', origin: 'Ámsterdam', price: 600 }
   ];
 
   return (

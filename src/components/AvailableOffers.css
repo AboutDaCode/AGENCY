@@ -28,6 +28,12 @@
   padding: 20px;
   width: 250px; /* Ancho fijo para las tarjetas */
   text-align: center;
+  transition: all 0.3s ease; /* Añadido para suavizar la transición */
+}
+
+.offer-card:hover {
+  transform: translateY(-5px); /* Eleva la tarjeta ligeramente */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra más pronunciada */
 }
 
 .offer-card h3 {
@@ -38,6 +44,11 @@
   width: 50px; /* Tamaño del icono */
   height: auto; 
   color: #007bff; /* Color del icono */
+  transition: transform 0.3s ease; /* Añadido para animar el icono */
+}
+
+.offer-card:hover .offer-icon {
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño del icono al hacer hover */
 }
 
 .icon {
@@ -56,6 +67,7 @@
   border: none;
   padding: 10px 15px;
   border-radius: 4px;
+  transition: background-color 0.3s ease; /* Suaviza la transición del color de fondo */
 }
 
 .book-now:hover {

@@ -1,0 +1,37 @@
+/* src/components/LegalInformation.css */
+.legal-information {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .legal-information h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .legal-information section {
+    margin-bottom: 30px;
+  }
+  
+  .legal-information h2 {
+    color: #007bff;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .legal-information p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .legal-information a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .legal-information a:hover {
+    text-decoration: underline;
+  }
