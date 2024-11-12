@@ -1,18 +1,36 @@
 /* src/components/SearchResults.css */
+.search-results-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
 .search-results {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-  }
-  
-  .flight-list {
+  flex: 1;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.search-image {
+  width: 300px; /* Ajusta el ancho según sea necesario */
+  background-image: url('/assets/people.jpeg'); /* Ruta desde la carpeta public */
+  background-size: cover; /* Asegura que la imagen cubra todo el área */
+  background-position: center; /* Centra la imagen */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Resto del CSS para los resultados de búsqueda */
+.flight-list {
     list-style-type: none;
     padding: 0;
-  }
-  
-  .flight-item {
+}
+
+.flight-item {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -20,40 +38,40 @@
     padding: 15px;
     display: flex;
     flex-direction: column;
-  }
-  
-  .flight-info {
+}
+
+.flight-info {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-  }
-  
-  .airline {
+}
+
+.airline {
     font-weight: bold;
-  }
-  
-  .flight-times {
+}
+
+.flight-times {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-  }
-  
-  .flight-details {
+}
+
+.flight-details {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-  }
-  
-  .select-flight {
+}
+
+.select-flight {
     align-self: flex-end;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .select-flight:hover {
-    background-color: #0056b3;
-  }
+    background-color: #007bff; /* Color del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 8px 16px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.select-flight:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+}
