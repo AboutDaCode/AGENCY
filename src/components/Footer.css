@@ -4,4 +4,35 @@
     color: white;
     text-align: center;
     padding: 10px;
-  }
+}
+
+.payment-methods {
+    margin-bottom: 10px; /* Espacio entre las imágenes y el texto */
+}
+
+.payment-methods img {
+    width: 40px; /* Ajusta el tamaño según sea necesario */
+    margin: 0 5px; /* Espacio entre las imágenes */
+}
+
+.footer-buttons {
+    margin-top: 10px; /* Espacio entre el texto de derechos reservados y los botones */
+}
+
+.footer-buttons button {
+    background-color: #007bff; /* Color azul */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin: 0 5px; /* Espacio entre los botones */
+}
+
+.footer-buttons button:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+.footer-content {
+    margin-top: 10px; /* Espacio superior para el contenido mostrado */
+}

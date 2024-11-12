@@ -6,7 +6,6 @@ import SearchForm from './components/SearchForm';
 import SearchResults from './components/SearchResults';
 import AvailableOffers from './components/AvailableOffers';
 import ServicesAndPrices from './components/ServicesAndPrices'; // Importamos el nuevo componente
-import LegalInformation from './components/LegalInformation'; // Importamos el nuevo componente
 import Footer from './components/Footer';
 import './App.css';
 
@@ -49,7 +48,7 @@ function App() {
       </div>
       <AvailableOffers />
       <ServicesAndPrices /> {/* Agregamos la nueva sección de servicios y precios aquí */}
-      <LegalInformation /> {/* Agregamos la nueva sección de información legal aquí */}
+      {/* LegalInformation se ha eliminado */}
       <Footer />
     </div>
   );
