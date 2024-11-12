@@ -1,6 +1,6 @@
 /* src/components/Hero.css */
 .hero {
-  background-image: url('../../assets/hero-background.png'); /* Ajusta la ruta correctamente */
+  background-image: url('../../assets/couple-background.png'); /* Ajusta la ruta correctamente */
   background-size: cover; /* Asegura que la imagen cubra todo el área */
   background-position: center; /* Centra la imagen */
   color: white; /* Cambia el color del texto para que sea legible sobre el fondo */
