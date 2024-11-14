@@ -23,31 +23,37 @@ const TermsAndConditions = () => (
       Nos reservamos el derecho a modificar estos términos en cualquier momento. Las modificaciones serán efectivas una vez publicadas en nuestro sitio web. Se recomienda revisar periódicamente los términos para estar al tanto de cualquier cambio.
     </p>
 
-    <h3>4. Limitación de Responsabilidad</h3>
+    <h3>4. Consentimiento de Cookies</h3>
+    <p>
+      Este sitio utiliza cookies para mejorar la experiencia del usuario. Para más información sobre cómo utilizamos las cookies y cómo puede gestionar sus preferencias, consulte nuestra <a href="/cookie-policy">Política de Cookies</a>.
+    </p>
+
+    <h3>5. Limitación de Responsabilidad</h3>
     <p>
       En la máxima medida permitida por la ley, no seremos responsables por ningún daño directo, indirecto, incidental o consecuente que resulte del uso o la incapacidad de uso de nuestros servicios.
     </p>
 
-    <h3>5. Propiedad Intelectual</h3>
+    <h3>6. Propiedad Intelectual</h3>
     <p>
       Todo el contenido del sitio, incluyendo texto, gráficos, logotipos, imágenes y software, es propiedad de Suarez Santana Javier Acoray o de sus proveedores y está protegido por las leyes de propiedad intelectual.
     </p>
 
-    <h3>6. Ley Aplicable</h3>
+    <h3>7. Ley Aplicable</h3>
     <p>
       Estos términos se regirán e interpretarán de acuerdo con las leyes del [tu país o estado]. Cualquier disputa que surja en relación con estos términos se resolverá en los tribunales competentes de [tu jurisdicción].
     </p>
 
-    <h3>7. Resolución de Disputas</h3>
+    <h3>8. Resolución de Disputas</h3>
     <p>
       Si usted es un consumidor en la Unión Europea, tiene derecho a presentar una queja ante la plataforma europea de Resolución de litigios en línea (RLL): 
       <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer"> Plataforma RLL</a>.
     </p>
 
-    <h3>8. Contacto</h3>
+    <h3>9. Contacto</h3>
     <p>
       Para cualquier pregunta sobre estos términos, contáctenos a través del correo electrónico [tu-email@empresa.com].
     </p>
+
   </div>
 );
 

@@ -30,6 +30,11 @@ const PrivacyPolicy = () => (
       <li>Enviarle información sobre promociones y ofertas especiales (si ha dado su consentimiento).</li>
     </ul>
 
+    <h3>Consentimiento de Cookies</h3>
+    <p>
+      Este sitio utiliza cookies para mejorar la experiencia del usuario. Para más información sobre cómo utilizamos las cookies y cómo puede gestionar sus preferencias, consulte nuestra <a href="/cookie-policy">Política de Cookies</a>.
+    </p>
+
     <h3>Protección de la Información</h3>
     <p>
       Implementamos medidas de seguridad para proteger su información personal contra accesos no autorizados o divulgaciones. Sin embargo, ninguna transmisión de datos por Internet o almacenamiento electrónico puede garantizarse como 100% seguro.
@@ -58,6 +63,7 @@ const PrivacyPolicy = () => (
     <p>
       Si tiene preguntas sobre esta política de privacidad, contáctenos a través del correo electrónico [tu-email@empresa.com].
     </p>
+
   </div>
 );
 

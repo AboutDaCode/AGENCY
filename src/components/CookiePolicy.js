@@ -17,7 +17,7 @@ const CookiePolicy = () => (
       <li>Personalizar el contenido y los anuncios</li>
       <li>Mejorar la seguridad del sitio</li>
     </ul>
-    
+
     <h3>Tipos de Cookies que Utilizamos</h3>
     <ul>
       <li><strong>Cookies Esenciales:</strong> Necesarias para el funcionamiento básico del sitio.</li>
@@ -25,10 +25,15 @@ const CookiePolicy = () => (
       <li><strong>Cookies de Funcionalidad:</strong> Recuerdan sus preferencias para mejorar su experiencia.</li>
       <li><strong>Cookies de Publicidad:</strong> Se utilizan para mostrar anuncios relevantes.</li>
     </ul>
-    
+
     <h3>Gestión de Cookies</h3>
-    <p>Puede gestionar sus preferencias sobre el uso de cookies a través de la configuración de su navegador. Sin embargo, deshabilitar las cookies puede afectar la funcionalidad del sitio.</p>
+    <p>Puede gestionar sus preferencias sobre el uso de cookies a través del banner que aparece al visitar nuestro sitio. Tiene la opción de "Aceptar" o "Rechazar" todas las cookies, y ambas opciones son igualmente visibles.</p>
     
+    <p>Después de su primera visita, no volveremos a mostrar el banner, pero siempre podrá cambiar sus preferencias en cualquier momento desde la configuración del sitio.</p>
+
+    <h3>Mantener un Registro</h3>
+    <p>Mantenemos un registro de sus preferencias respecto al uso de cookies para garantizar que se respeten sus elecciones en futuras visitas.</p>
+
     <h3>Más Información</h3>
     <p>Para obtener más información sobre cómo utilizamos las cookies, por favor contacte con nosotros a través de <a href="mailto:suarezsantanajavieracoray@gmail.com">suarezsantanajavieracoray@gmail.com</a>.</p>
 
