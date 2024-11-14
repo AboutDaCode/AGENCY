@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import './Footer.css';
 import CookiePolicy from './CookiePolicy'; // Importamos el componente CookiePolicy
 import PrivacyPolicy from './PrivacyPolicy'; // Importamos el componente PrivacyPolicy
+import TermsAndConditions from './TermsAndConditions'; // Importamos el componente TermsAndConditions
+import DoNotSell from './DoNotSell'; // Importamos el componente DoNotSell
 
 const Footer = () => {
   const [activeContent, setActiveContent] = useState(null);
@@ -20,13 +22,8 @@ const Footer = () => {
     ),
     privacidad: <PrivacyPolicy />, // Usamos el componente PrivacyPolicy aquí
     cookies: <CookiePolicy />, // Usamos el componente CookiePolicy aquí
-    terminos: `Al utilizar el sitio web de Suarez Santana Javier Acoray, usted acepta cumplir con los siguientes términos.
-      
-      - **Uso del Servicio**: Usted se compromete a utilizar nuestros servicios solo para fines legales y conforme a todas las leyes aplicables.
-      
-      - **Reservas**: Todas las reservas están sujetas a disponibilidad y confirmación. Nos reservamos el derecho a cancelar reservas en caso de errores en la disponibilidad o precios.
-      
-      - **Modificaciones**: Nos reservamos el derecho a modificar estos términos en cualquier momento. Las modificaciones serán efectivas una vez publicadas en nuestro sitio web.`,
+    terminos: <TermsAndConditions />, // Usamos el componente TermsAndConditions aquí
+    doNotSell: <DoNotSell />, // Usamos el componente DoNotSell aquí
   };
 
   return (
@@ -45,6 +42,7 @@ const Footer = () => {
         <button onClick={() => toggleContent('privacidad')}>Política de Privacidad</button>
         <button onClick={() => toggleContent('cookies')}>Cookies</button>
         <button onClick={() => toggleContent('terminos')}>Términos y Condiciones</button>
+        <button onClick={() => toggleContent('doNotSell')}>No Venda Mi Información Personal</button> {/* Nuevo botón */}
       </div>
       {activeContent && (
         <div className="footer-content">

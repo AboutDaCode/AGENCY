@@ -1,4 +1,5 @@
 // src/components/CookieBanner.js
+/* global dataLayer */
 import React, { useState, useEffect } from 'react';
 import './CookieBanner.css';
 
@@ -9,19 +10,35 @@ const CookieBanner = () => {
     const cookieConsent = localStorage.getItem('cookieConsent');
     if (!cookieConsent) {
       setIsVisible(true);
+    } else if (cookieConsent === 'accepted') {
+      loadScripts(); // Cargar scripts si se aceptó el consentimiento
     }
   }, []);
 
   const handleAccept = () => {
     localStorage.setItem('cookieConsent', 'accepted');
     setIsVisible(false);
-    // Aquí puedes habilitar cookies o scripts necesarios
+    loadScripts(); // Cargar scripts al aceptar
   };
 
   const handleReject = () => {
     localStorage.setItem('cookieConsent', 'rejected');
     setIsVisible(false);
-    // Aquí puedes bloquear cookies o scripts no esenciales
+    // Aquí puedes agregar lógica para bloquear cookies o scripts no esenciales
+  };
+
+  const loadScripts = () => {
+    // Ejemplo: Cargar Google Analytics
+    const script = document.createElement('script');
+    script.src = "https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"; // Reemplaza con tu ID de seguimiento
+    script.async = true;
+    document.head.appendChild(script);
+
+    // Inicializar Google Analytics (ejemplo)
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'YOUR_TRACKING_ID'); // Reemplaza con tu ID de seguimiento
   };
 
   if (!isVisible) return null;
