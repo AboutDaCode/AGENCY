@@ -1,8 +1,13 @@
 /* src/components/Header.css */
 .header {
-  background-color: #333;
-  color: white;
-  padding: 10px;
+  position: fixed; /* Fija el encabezado en la parte superior */
+  top: 0; /* Posición en la parte superior */
+  left: 0; /* Alineación a la izquierda */
+  right: 0; /* Alineación a la derecha */
+  background-color: #333; /* Color de fondo del encabezado */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espaciado interno */
+  z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
 }
 
 .nav-list {
@@ -27,4 +32,9 @@
 
 .nav-right li {
   margin-left: 20px; /* Espacio entre los enlaces de la derecha */
+}
+
+/* Agregar margen superior al contenido principal para evitar que quede oculto detrás del encabezado */
+.main-content {
+  margin-top: 60px; /* Ajusta este valor según la altura del encabezado */
 }

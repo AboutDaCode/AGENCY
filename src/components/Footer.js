@@ -36,7 +36,7 @@ const Footer = () => {
         <img src="/images/google.png" alt="Google" />
         <img src="/images/apples.png" alt="Apples" />
       </div>
-      <p>&copy; 2024 Agency. Todos los derechos reservados.</p>
+      <p>&copy; 2024 First Flight. Todos los derechos reservados.</p>
       <div className="footer-buttons">
         <button onClick={() => toggleContent('contacto')}>Contacto</button>
         <button onClick={() => toggleContent('privacidad')}>Política de Privacidad</button>
