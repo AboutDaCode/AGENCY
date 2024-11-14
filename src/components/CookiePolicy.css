@@ -1,0 +1,17 @@
+/* src/components/CookiePolicy.css */
+.cookie-policy {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cookie-policy h2 {
+    text-align: center;
+  }
+  
+  .cookie-policy h3 {
+    margin-top: 20px;
+  }

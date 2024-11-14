@@ -5,7 +5,7 @@ import './Hero.css'; // Asegúrate de que este archivo CSS existe
 const Hero = () => {
   return (
     <section className="hero" id="hero">
-      <h1>Bienvenido a Agency</h1>
+      <h1>Bienvenido a First Flight</h1>
       <p>Encuentra los mejores vuelos al mejor precio.</p>
     </section>
   );

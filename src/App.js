@@ -5,8 +5,9 @@ import Hero from './components/Hero';
 import SearchForm from './components/SearchForm';
 import SearchResults from './components/SearchResults';
 import AvailableOffers from './components/AvailableOffers';
-import ServicesAndPrices from './components/ServicesAndPrices'; // Importamos el nuevo componente
+import ServicesAndPrices from './components/ServicesAndPrices';
 import Footer from './components/Footer';
+import CookieBanner from './components/CookieBanner'; // Importamos el nuevo componente
 import './App.css';
 
 function App() {
@@ -47,9 +48,9 @@ function App() {
         <SearchResults flights={searchResults} />
       </div>
       <AvailableOffers />
-      <ServicesAndPrices /> {/* Agregamos la nueva sección de servicios y precios aquí */}
-      {/* LegalInformation se ha eliminado */}
+      <ServicesAndPrices />
       <Footer />
+      <CookieBanner /> {/* Agregamos el nuevo componente CookieBanner aquí */}
     </div>
   );
 }
